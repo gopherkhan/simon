@@ -1,0 +1,78 @@
+
+
+
+body {
+    padding-top: 100px;
+    text-align:center;
+    width: 100%;
+}
+
+.content {
+    width: 600px;
+    display: inline-block;
+}
+
+.box {
+    border: 2px solid black;
+    background-color: white;
+    margin: 10px;
+}
+
+.box-module {
+    background-color: lightsalmon;
+    padding: 15px;
+}
+
+.main-box {
+    width: 200px;
+    height: 200px;
+}
+
+
+.bottom-bar {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    padding: 13px;
+    width: 194px;
+}
+
+.bottom-bar.start {
+    cursor: pointer;
+}
+
+.mini-box {
+    display: inline-block;
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+}
+
+.module-container {
+    text-align: left;
+}
+
+.partition {
+    display: inline-block;
+    width: 283px;
+    vertical-align: top;
+}
+
+.partition.right-side {
+    text-align: right;
+}
+
+.box[data-color=red] {
+    background-color: red;
+}
+
+.box[data-color=green] {
+    background-color: green;
+}
+.box[data-color=blue] {
+    background-color: blue;
+}
+
+.box[data-color=yellow] {
+    background-color: yellow;
+}
